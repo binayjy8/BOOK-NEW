@@ -16,4 +16,4 @@ const Book = () => {
     )
 };
 
-export default Hotels;
+export default Book;
