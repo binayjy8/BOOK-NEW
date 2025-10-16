@@ -9,7 +9,7 @@ const Book = () => {
         <div>
             <ul>
                 {data?.map((book) => (
-                    <li>{book.name}</li>
+                    <li>{book.title}</li>
                 ))}
             </ul>
         </div>
