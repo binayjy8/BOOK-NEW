@@ -9,6 +9,7 @@ const Book = () => {
         <div>
             <ul>
                 {data?.book.map((book) => (
+                    <h2>All Books</h2>,
                     <li>{book.title}</li>
                 ))}
             </ul>
