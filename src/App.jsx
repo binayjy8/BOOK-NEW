@@ -5,6 +5,5 @@ import useFetch from "../useFetch";
 export default function App() {
   return (<main> 
     <Book />
-    {/* <BookByTitle title="Shoe Dog" /> */}
   </main>)
 }
