@@ -10,5 +10,6 @@ const AddedBookForm = () => {
         country: "",
         rating: "",
         summary: "",
+        coverImageUrl: "",
     });
 }
