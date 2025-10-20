@@ -67,11 +67,8 @@ const AddedBookForm = () => {
                     checked={formData.genre.includes("Mystery")}
                     onChange={handleChange}
                 />
-                <label htmlFor="mystery">Mystery</label>
-                {/* Add more genres as needed */}
+                <label>Mystery</label>
                 <br />
-
-                {/* Example for a Number input */}
                 <label>Rating:</label>
                 <br />
                 <input
