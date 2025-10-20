@@ -26,6 +26,24 @@ const AddedBookForm = () => {
     const handleSubmit = async (event) => {
         event.preventDefault()
         try{
+            const response = await fetch("https://book-chi-indol.vercel.app/books",
+
+              {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(formData)
+                }
+            );
+
+            if(!response.ok){
+                throw "Failed to add hotel";
+            }
+
+            const data = await response.json();
+
+            console.log("Added Book", data);
 
         }catch(error){
             console.log(error);
