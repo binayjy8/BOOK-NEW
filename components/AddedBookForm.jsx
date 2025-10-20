@@ -18,6 +18,7 @@ const AddedBookForm = () => {
             <h2>Add New Book</h2>
             <form>
                 <label>Title:</label>
+                <br />
                 <input />
             </form>
         </div>
