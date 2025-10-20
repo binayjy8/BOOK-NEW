@@ -32,6 +32,7 @@ const AddedBookForm = () => {
                 <input 
                     type="text"
                     name="name"
+                    value={formData.title}
                 />
             </form>
         </div>
