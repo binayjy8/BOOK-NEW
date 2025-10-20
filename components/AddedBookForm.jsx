@@ -101,3 +101,5 @@ const AddedBookForm = () => {
         </div>
     )
 }
+
+export default AddedBookForm;
