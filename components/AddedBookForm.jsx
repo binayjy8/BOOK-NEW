@@ -13,6 +13,8 @@ const AddedBookForm = () => {
         coverImageUrl: "",
     });
 
+    const handleChange = (e) => {}
+
     return (
         <div>
             <h2>Add New Book</h2>
