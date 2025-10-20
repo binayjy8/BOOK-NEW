@@ -79,7 +79,12 @@ const AddedBookForm = () => {
                 <br />
                 <label>Summary:</label>
                 <br />
-                <input />
+                <input 
+                    type="text"
+                    name="summary"
+                    value={formData.summary}
+                    onChange={handleChange}
+                />
 
                 <button type="submit">Add Book</button>
             </form>
