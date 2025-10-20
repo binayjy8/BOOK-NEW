@@ -9,5 +9,6 @@ const AddedBookForm = () => {
         language: "",
         country: "",
         rating: "",
+        summary: "",
     });
 }
