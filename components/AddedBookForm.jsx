@@ -87,6 +87,14 @@ const AddedBookForm = () => {
                 />
                 <br />
                 <br />
+                <label>CoverImageUrl</label>
+                <br />
+                <input 
+                    type="url"
+                    name="coverImageUrl"
+                    value={formData.coverImageUrl}
+                    onChange={handleChange}
+                />
 
                 <button type="submit">Add Book</button>
             </form>
