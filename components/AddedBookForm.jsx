@@ -12,4 +12,10 @@ const AddedBookForm = () => {
         summary: "",
         coverImageUrl: "",
     });
+
+    return (
+        <div>
+            <h2>Add New Book</h2>
+        </div>
+    )
 }
