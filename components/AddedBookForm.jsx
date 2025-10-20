@@ -53,11 +53,11 @@ const AddedBookForm = () => {
                     value={formData.genre}
                     onChange={handleChange}
                 />
-                <label htmlFor="fiction">Fiction</label>
+                <label>Language</label>
                 <input
-                    type="checkbox"
-                    name="genre"
-                    value="Mystery"
+                    type="text"
+                    name="language"
+                    value={formData.language}
                     onChange={handleChange}
                 />
                 <label>Mystery</label>
