@@ -23,7 +23,14 @@ const AddedBookForm = () => {
         }));
     };
 
-    const handleSubmit = async (event) => {}
+    const handleSubmit = async (event) => {
+        event.preventDefault()
+        try{
+
+        }catch(error){
+            console.log(error);
+        }
+    }
 
     return (
         <div>
