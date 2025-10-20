@@ -62,7 +62,12 @@ const AddedBookForm = () => {
                 />
                 <label>Country</label>
                 <br />
-                <input />
+                <input 
+                    type="text"
+                    name="country"
+                    value={formData.country}
+                    onChange={handleChange}
+                />
                 <label>Rating:</label>
                 <br />
                 <input
@@ -72,6 +77,9 @@ const AddedBookForm = () => {
                     onChange={handleChange}
                 />
                 <br />
+                <label>Summary:</label>
+                <br />
+                <input />
 
                 <button type="submit">Add Book</button>
             </form>
