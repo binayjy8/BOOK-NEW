@@ -19,7 +19,10 @@ const AddedBookForm = () => {
             <form>
                 <label>Title:</label>
                 <br />
-                <input />
+                <input 
+                    type="text"
+                    name="name"
+                />
             </form>
         </div>
     )
