@@ -62,6 +62,7 @@ const AddedBookForm = () => {
                 />
                 <label>Country</label>
                 <br />
+                <input />
                 <label>Rating:</label>
                 <br />
                 <input
