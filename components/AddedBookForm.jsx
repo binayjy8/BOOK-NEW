@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const AddedBookForm = () => {
-    const [formDta, setFormData] = useState({
+    const [formData, setFormData] = useState({
         title: "",
         author: "",
         publishedYear: "",
@@ -15,6 +15,12 @@ const AddedBookForm = () => {
 
     const handleChange = (e) => {
         const { name, value } = e.target;
+
+        setFormData((prevState) => ({
+            ...prevState,
+            [name]:
+                name === "publishedYear" || name === "rating" ? parseInt(value) : value,
+        }))
     }
 
     return (
