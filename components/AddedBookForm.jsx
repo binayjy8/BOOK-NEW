@@ -23,6 +23,8 @@ const AddedBookForm = () => {
         }));
     };
 
+    const handleSubmit = async (event) => {}
+
     return (
         <div>
             <h2>Add New Book</h2>
