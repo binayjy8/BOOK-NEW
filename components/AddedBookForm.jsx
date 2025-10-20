@@ -72,7 +72,7 @@ const AddedBookForm = () => {
                 <br />
 
                 {/* Example for a Number input */}
-                <label htmlFor="rating">Rating (1-5):</label>
+                <label>Rating:</label>
                 <br />
                 <input
                     type="number"
