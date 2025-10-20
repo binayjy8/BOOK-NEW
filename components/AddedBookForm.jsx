@@ -34,6 +34,55 @@ const AddedBookForm = () => {
                     name="name"
                     value={formData.title}
                 />
+
+                <label htmlFor="author">Author:</label>
+                <br />
+                <input
+                    id="author"
+                    type="text"
+                    name="author"
+                    value={formData.author}
+                    onChange={handleChange}
+                    required
+                />
+                <br />
+
+                <label>Genre (Select all that apply):</label>
+                <br />
+                {/* Example Checkbox for Genre */}
+                <input
+                    type="checkbox"
+                    id="fiction"
+                    name="genre"
+                    value="Fiction"
+                    checked={formData.genre.includes("Fiction")}
+                    onChange={handleChange}
+                />
+                <label htmlFor="fiction">Fiction</label>
+                <input
+                    type="checkbox"
+                    id="mystery"
+                    name="genre"
+                    value="Mystery"
+                    checked={formData.genre.includes("Mystery")}
+                    onChange={handleChange}
+                />
+                <label htmlFor="mystery">Mystery</label>
+                {/* Add more genres as needed */}
+                <br />
+
+                {/* Example for a Number input */}
+                <label htmlFor="rating">Rating (1-5):</label>
+                <br />
+                <input
+                    type="number"
+                    name="rating"
+                    value={formData.rating}
+                    onChange={handleChange}
+                />
+                <br />
+
+                <button type="submit">Add Book</button>
             </form>
         </div>
     )
