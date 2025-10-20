@@ -60,7 +60,7 @@ const AddedBookForm = () => {
                     value={formData.language}
                     onChange={handleChange}
                 />
-                <label>Mystery</label>
+                <label>Country</label>
                 <br />
                 <label>Rating:</label>
                 <br />
