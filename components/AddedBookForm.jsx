@@ -16,6 +16,9 @@ const AddedBookForm = () => {
     return (
         <div>
             <h2>Add New Book</h2>
+            <form>
+                <input />
+            </form>
         </div>
     )
 }
