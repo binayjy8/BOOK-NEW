@@ -8,5 +8,6 @@ const AddedBookForm = () => {
         genre: [],
         language: "",
         country: "",
+        rating: "",
     });
 }
