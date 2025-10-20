@@ -4,6 +4,7 @@ const AddedBookForm = () => {
     const [formDta, setFormData] = useState({
         title: "",
         author: "",
-        publishedYear: ""
-    })
+        publishedYear: "",
+        genre: [],
+    });
 }
