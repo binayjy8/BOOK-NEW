@@ -62,6 +62,7 @@ const AddedBookForm = () => {
                     value={formData.title}
                     onChange={handleSubmit}
                 />
+                <br />
 
                 <label>Author:</label>
                 <br />
@@ -81,13 +82,16 @@ const AddedBookForm = () => {
                     value={formData.genre}
                     onChange={handleSubmit}
                 />
+                <br />
                 <label>Language</label>
+                <br />
                 <input
                     type="text"
                     name="language"
                     value={formData.language}
                     onChange={handleSubmit}
                 />
+                <br />
                 <label>Country</label>
                 <br />
                 <input 
@@ -96,6 +100,7 @@ const AddedBookForm = () => {
                     value={formData.country}
                     onChange={handleSubmit}
                 />
+                <br />
                 <label>Rating:</label>
                 <br />
                 <input
