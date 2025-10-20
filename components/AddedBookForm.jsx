@@ -20,8 +20,8 @@ const AddedBookForm = () => {
             ...prevState,
             [name]:
                 name === "publishedYear" || name === "rating" ? parseInt(value) : value,
-        }))
-    }
+        }));
+    };
 
     return (
         <div>
