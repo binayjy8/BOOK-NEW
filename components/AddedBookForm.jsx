@@ -58,7 +58,7 @@ const AddedBookForm = () => {
                 <br />
                 <input 
                     type="text"
-                    name="name"
+                    name="title"
                     value={formData.title}
                     onChange={handleSubmit}
                 />
