@@ -60,7 +60,7 @@ const AddedBookForm = () => {
                     type="text"
                     name="title"
                     value={formData.title}
-                    onChange={handleSubmit}
+                    onChange={handleChange}
                 />
                 <br />
 
@@ -70,7 +70,7 @@ const AddedBookForm = () => {
                     type="text"
                     name="author"
                     value={formData.author}
-                    onChange={handleSubmit}
+                    onChange={handleChange}
                 />
                 <br />
 
@@ -80,7 +80,7 @@ const AddedBookForm = () => {
                     type="checkbox"
                     name="genre"
                     value={formData.genre}
-                    onChange={handleSubmit}
+                    onChange={handleChange}
                 />
                 <br />
                 <label>Language</label>
@@ -89,7 +89,7 @@ const AddedBookForm = () => {
                     type="text"
                     name="language"
                     value={formData.language}
-                    onChange={handleSubmit}
+                    onChange={handleChange}
                 />
                 <br />
                 <label>Country</label>
@@ -98,7 +98,7 @@ const AddedBookForm = () => {
                     type="text"
                     name="country"
                     value={formData.country}
-                    onChange={handleSubmit}
+                    onChange={handleChange}
                 />
                 <br />
                 <label>Rating:</label>
@@ -107,7 +107,7 @@ const AddedBookForm = () => {
                     type="number"
                     name="rating"
                     value={formData.rating}
-                    onChange={handleSubmit}
+                    onChange={handleChange}
                 />
                 <br />
                 <label>Summary:</label>
@@ -116,7 +116,7 @@ const AddedBookForm = () => {
                     type="text"
                     name="summary"
                     value={formData.summary}
-                    onChange={handleSubmit}
+                    onChange={handleChange}
                 />
                 <br />
                 <br />
@@ -126,7 +126,7 @@ const AddedBookForm = () => {
                     type="url"
                     name="coverImageUrl"
                     value={formData.coverImageUrl}
-                    onChange={handleSubmit}
+                    onChange={handleChange}
                 />
 
                 <button type="submit">Add Book</button>
