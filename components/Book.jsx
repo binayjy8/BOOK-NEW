@@ -35,6 +35,7 @@ const Book = () => {
                     </li>
                 ))}
             </ul>
+            <p>{successMessage}</p>
         </div>
     )
 };
