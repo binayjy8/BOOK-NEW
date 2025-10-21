@@ -77,7 +77,7 @@ const AddedBookForm = () => {
                 <label>Genre:</label>
                 <br />
                 <input
-                    type="checkbox"
+                    type="text"
                     name="genre"
                     value={formData.genre}
                     onChange={handleChange}
